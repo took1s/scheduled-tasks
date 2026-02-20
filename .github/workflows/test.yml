@@ -39,12 +39,6 @@ jobs:
             exit 1
           fi
 
-          if [ -f "birthdays.csv" ]; then
-            echo "birthdays.csv found"
-
-          echo ""
-          echo "All required files found!"
-
       - name: Test Python syntax
         run: python -m py_compile main.py && echo "Python syntax OK"
 
