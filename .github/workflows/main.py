@@ -7,8 +7,8 @@ account_sid = os.environ.get("ACCOUNT_SID")
 auth_token = os.environ.get("AUTH_TOKEN")
 client = Client(account_sid, auth_token)
 api_key = os.environ.get("OWN_API_KEY")
-lat = 48.464718
-lon = 35.046185
+lat = 48.384239
+lon = 10.010240
 
 parameters = {
     "lat": lat,
